@@ -1,14 +1,25 @@
 # ARG_WEB
 
-Experiência web interativa com estética de ficção e elementos de investigação.
-O projeto apresenta uma página temática de pizzaria, conteúdos por capítulos,
-mensagens e efeitos sonoros para criar uma experiência de ARG (Alternate
-Reality Game).
+Jogo web narrativo com estética de ficção e elementos de investigação.
+O projeto apresenta uma experiência de ARG (Alternate Reality Game), com
+capítulos, mensagens, enigmas e efeitos sonoros para o jogador descobrir.
 
-## Como executar
+## Jogar na web
 
-O projeto é estático e usa React pelo CDN. Para testar localmente, clone o
-repositório e inicie um servidor simples na pasta:
+A versão publicada pode ser acessada pelo GitHub Pages:
+
+```text
+https://gilmarhenriqueferreirafi-wq.github.io/ARG_WEB/
+```
+
+O projeto foi feito para ser jogado no navegador. Não é necessário instalar
+um servidor para a versão publicada.
+
+## Como testar uma cópia
+
+Para criar sua própria versão web, faça um fork ou clone o repositório e
+publique os arquivos em um serviço de hospedagem estática, como o GitHub
+Pages. Para uma prévia local, também é possível iniciar um servidor simples:
 
 ```bash
 git clone https://github.com/gilmarhenriqueferreirafi-wq/ARG_WEB.git
@@ -21,13 +32,17 @@ Abra `http://localhost:8000` no navegador.
 Também é possível publicar os arquivos diretamente em um serviço de hospedagem
 estática, como o GitHub Pages.
 
-## Estrutura
+## Estrutura do jogo
 
 - `index.html`: página principal.
-- `app.js`: aplicação e interações.
-- `fases-pages/`: conteúdos dos capítulos.
+- `app.js`: jogo e interações.
+- `fases-pages/`: conteúdos dos capítulos e mensagens.
 - `assents/audio/`: efeitos sonoros e trilhas.
 - `bekup/`: arquivos de apoio e versões anteriores.
+
+As respostas dos enigmas ficam no JavaScript do navegador de propósito: este
+é um jogo client-side, e não um sistema de autenticação. Elas não devem ser
+tratadas como senhas reais ou informações confidenciais.
 
 ## Tecnologias
 
