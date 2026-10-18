@@ -53,3 +53,9 @@ tratadas como senhas reais ou informações confidenciais.
 ## Estado
 
 Projeto experimental em desenvolvimento.
+
+## Conteúdo incorporado
+
+O antigo projeto `fnaf` foi incorporado em `fnaf/` como uma experiência
+relacionada dentro deste mesmo universo. O repositório separado foi arquivado
+para evitar duplicação.
